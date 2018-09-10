@@ -8,23 +8,13 @@
  *
  * @author aluno
  */
-public class Ex3 {
+public class Ex5 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        double b1,b2,b3,b4,media;
-        b1 = 3.5;
-        b2 = 5;
-        b3 = 7.2;
-        b4 = 9.1;
-        media = ((b1*1)+(b2*2)+(b3*3)+(b4*5))/(1+2+3+5);
-        System.out.println("Sua media é"+media);
-        
         // TODO code application logic here
-        // Na dúvida, use double;
-        // casting = 5.5f ou x = (float)5.5;
     }
     
 }
