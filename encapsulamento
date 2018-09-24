@@ -1,0 +1,8 @@
+Encapsulamento
+
+É a definição dos metódos da classe como públicos e dos atributos como privados.
+"Um mecanismo da linguagem de programação para restringir o acesso a alguns 
+componentes dos objetos, escondendo os dados de uma  classe  e  tornando-os 
+disponíveis somente através de métodos. "
+
+Protect vai além;
