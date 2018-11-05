@@ -3,29 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.florincy.aula5_11;
+package com.florincy.ex2_aula_5_11;
 
 /**
  *
  * @author aluno
  */
-public class Aplicação {
+public class Aplicacao {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Object o1 = new Object();
-        Object o2 = new Object();
-        try {
-            boolean iguais = Comparador.comparar(01,02);
-            System.out.println(iguais);
+        Banco banco1 = new Banco();
+        try{
+           banco1.realizarOperação();
         }
-        catch(NullPointerException e) {
-            System.out.println("O objeto é nulo");
+        catch(BancoException e){
+            System.out.println("Ocorreu um erro:"+e.getMessage());
+            System.out.println(e.getCause());
         }
-        
     }
     
 }
